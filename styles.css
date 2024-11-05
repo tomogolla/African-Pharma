@@ -1,0 +1,198 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #4B0082; /* Dark purple */
+}
+
+.navbar .navbar-brand {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.navbar .nav-link:hover {
+    color: #D8BFD8; /* Light purple hover effect */
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('assets/2d1.png'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+section.bg-primary {
+    background-color: #7a6888; /* Medium purple */
+    color: whitesmoke;
+}
+
+section.bg-primary .btn {
+    background-color: whitesmoke;
+    color: #4B0082;
+}
+
+section.bg-primary .btn:hover {
+    background-color: #D8BFD8;
+    color: whitesmoke;
+}
+
+/* About Section */
+section#about {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+#about h2 {
+    color: #4B0082; /* Dark purple for section titles */
+}
+
+#about p {
+    color: grey;
+}
+
+/* Services Section */
+section#services {
+    background-color: #F5F5F5; /* Light grey background */
+}
+
+#services h2 {
+    color: #4B0082; /* Dark purple */
+}
+
+.card {
+    border: none;
+    background-color: whitesmoke;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Slight hover effect */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #4B0082; /* Dark purple */
+}
+
+.card-text {
+    color: grey;
+}
+
+/* Testimonials Section */
+section#testimonials {
+    background-color: whitesmoke;
+}
+
+blockquote {
+    background-color: #E0E0E0; /* Light grey for quotes */
+    padding: 20px;
+    border-left: 5px solid #4B0082; /* Dark purple border for quotes */
+    font-style: italic;
+}
+
+blockquote .blockquote-footer {
+    margin-top: 5px;
+    color: #d2cdd6; /* Dark purple for author */
+}
+
+/* Contact Section */
+section#contact {
+    background-color: #F5F5F5; /* Light grey */
+    color: #333;
+}
+
+section#contact h2 {
+    color: #4B0082; /* Dark purple */
+}
+
+section#contact .btn {
+    background-color: #4B0082;
+    color: whitesmoke;
+}
+
+section#contact .btn:hover {
+    background-color: #6A0DAD;
+    color: whitesmoke;
+}
+
+/* Footer */
+footer {
+    background-color: #4B0082; /* Dark purple */
+    color: whitesmoke;
+}
+
+.more-info {
+    color: #ffffff;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.section-underline {
+    width: 50px;
+    height: 2px;
+    background-color: red;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.more-info p, .more-info ul li {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.more-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.more-info a:hover {
+    text-decoration: underline;
+}
+
+.more-info ul {
+    padding-left: 0;
+}
+
+.more-info ul li {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #444; /* Subtle divider between items */
+}
+footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    section.bg-primary h1 {
+        font-size: 2rem;
+    }
+
+    section.bg-primary p {
+        font-size: 1rem;
+    }
+}
