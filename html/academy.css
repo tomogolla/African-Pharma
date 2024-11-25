@@ -1,0 +1,446 @@
+/* academy section */
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yu+Gothic:wght@400;700&display=swap');
+
+/* Default Font Family */
+body {
+    font-family:  'Segoe UI', Arial, sans-serif;
+    font-size: 2.5vw; /* Responsive font size */
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f7f9fc;
+    margin-top: 2vw;
+}
+
+.hero-image {
+    width: 40%;
+    padding: 1.25vw;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.hero-content {
+    width: 70%;
+    padding: 1.25vw;
+}
+
+.hero-content h1 {
+    font-size: 3.5vw; /* Responsive font size */
+    color: #2c3e50;
+    margin-bottom: 1.5vw;
+}
+
+.hero-content h3 {
+    font-size: 2.25vw; /* Responsive font size */
+    color: #e67e22;
+    margin-bottom: 2vw;
+}
+
+.btn-list button {
+    margin-bottom: 1.5vw;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #2c3e50;
+    background-color: #fff;
+    color: #2c3e50;
+    border-radius: 0.5vw;
+}
+
+.btn-list button:hover {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.card-img-overlay {
+    margin-top: 6.25vw; /* Responsive margin */
+}
+
+/* academy section */
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yu+Gothic:wght@400;700&display=swap');
+
+/* Default Font Family */
+body {
+    font-family:  'Segoe UI', Arial, sans-serif;
+    font-size: 2.5vw; /* Responsive font size */
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f7f9fc;
+    margin-top: 2vw;
+}
+
+.hero-image {
+    width: 40%;
+    padding: 1.25vw;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.hero-content {
+    width: 70%;
+    padding: 1.25vw;
+}
+
+.hero-content h1 {
+    font-size: 3.5vw; /* Responsive font size */
+    color: #2c3e50;
+    margin-bottom: 1.5vw;
+}
+
+.hero-content h3 {
+    font-size: 2.25vw; /* Responsive font size */
+    color: #e67e22;
+    margin-bottom: 2vw;
+}
+
+.btn-list button {
+    margin-bottom: 1.5vw;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #2c3e50;
+    background-color: #fff;
+    color: #2c3e50;
+    border-radius: 0.5vw;
+}
+
+.btn-list button:hover {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.card-img-overlay {
+    margin-top: 6.25vw; /* Responsive margin */
+}
+
+.card-img-overlay h5 {
+    margin-top: 1.875vw;
+    font-size: 4vw; /* Responsive font size */
+    color: #fff;
+    margin-bottom: 1.25vw;
+}
+
+/* Fine-tune with media queries */
+@media (max-width: 1200px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 3vw;
+    }
+    .hero-content h3 {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 2.5vw;
+    }
+    .hero-content h3 {
+        font-size: 1.75vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 4vw;
+    }
+    .hero-content h3 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 5vw;
+    }
+    .hero-content h3 {
+        font-size: 3vw;
+    }
+}
+/* academy section */
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yu+Gothic:wght@400;700&display=swap');
+
+/* Default Font Family */
+body {
+    font-family:  'Segoe UI', Arial, sans-serif;
+    font-size: 2.5vw; /* Responsive font size */
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f7f9fc;
+    margin-top: 2vw;
+}
+
+.hero-image {
+    width: 40%;
+    padding: 1.25vw;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.hero-content {
+    width: 70%;
+    padding: 1.25vw;
+}
+
+.hero-content h1 {
+    font-size: 3.5vw; /* Responsive font size */
+    color: #2c3e50;
+    margin-bottom: 1.5vw;
+}
+
+.hero-content h3 {
+    font-size: 2.25vw; /* Responsive font size */
+    color: #e67e22;
+    margin-bottom: 2vw;
+}
+
+.btn-list button {
+    margin-bottom: 1.5vw;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #2c3e50;
+    background-color: #fff;
+    color: #2c3e50;
+    border-radius: 0.5vw;
+}
+
+.btn-list button:hover {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.card-img-overlay {
+    margin-top: 6.25vw; /* Responsive margin */
+}
+
+.card-img-overlay h5 {
+    margin-top: 1.875vw;
+    font-size: 4vw; /* Responsive font size */
+    color: #fff;
+    margin-bottom: 1.25vw;
+}
+/* academy section */
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yu+Gothic:wght@400;700&display=swap');
+
+/* Default Font Family */
+body {
+    font-family:  'Segoe UI', Arial, sans-serif;
+    font-size: 2.5vw; /* Responsive font size */
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f7f9fc;
+    margin-top: 2vw;
+}
+
+.hero-image {
+    width: 40%;
+    padding: 1.25vw;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.hero-content {
+    width: 70%;
+    padding: 1.25vw;
+}
+
+.hero-content h1 {
+    font-size: 3.5vw; /* Responsive font size */
+    color: #2c3e50;
+    margin-bottom: 1.5vw;
+}
+
+.hero-content h3 {
+    font-size: 2.25vw; /* Responsive font size */
+    color: #e67e22;
+    margin-bottom: 2vw;
+}
+
+.btn-list button {
+    margin-bottom: 1.5vw;
+    width: 90%;
+    text-align: center;
+    border: 1px solid #2c3e50;
+    background-color: #fff;
+    color: #2c3e50;
+    border-radius: 0vw;
+}
+
+.btn-list button:hover {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.card-img-overlay {
+    margin-top: 6.25vw; /* Responsive margin */
+}
+
+.card-img-overlay h5 {
+    margin-top: 1.875vw;
+    font-size: 4vw; /* Responsive font size */
+    color: #fff;
+    margin-bottom: 1.25vw;
+}
+
+.card-img-overlay p {
+    margin-top: 1.875vw;
+    font-size: 1vw; /* Responsive font size */
+    color: #fff;
+    margin-bottom: 1.25vw;
+}
+
+/* Fine-tune with media queries */
+@media (max-width: 1200px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 3vw;
+    }
+    .hero-content h3 {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 2.5vw;
+    }
+    .hero-content h3 {
+        font-size: 1.75vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 4vw;
+    }
+    .hero-content h3 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 5vw;
+    }
+    .hero-content h3 {
+        font-size: 3vw;
+    }
+}
+
+/* Fine-tune with media queries */
+@media (max-width: 1200px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 3vw;
+    }
+    .hero-content h3 {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 2.5vw;
+    }
+    .hero-content h3 {
+        font-size: 1.75vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 4vw;
+    }
+    .hero-content h3 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 5vw;
+    }
+    .hero-content h3 {
+        font-size: 3vw;
+    }
+}
+
+
+/* Fine-tune with media queries */
+@media (max-width: 1200px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 3vw;
+    }
+    .hero-content h3 {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 2.5vw;
+    }
+    .hero-content h3 {
+        font-size: 1.75vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 4vw;
+    }
+    .hero-content h3 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1, .card-img-overlay h5 {
+        font-size: 5vw;
+    }
+    .hero-content h3 {
+        font-size: 3vw;
+    }
+}
